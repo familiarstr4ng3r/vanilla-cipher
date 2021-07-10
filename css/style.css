@@ -1,0 +1,32 @@
+
+* {
+  user-select: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.overlay-image {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#background {
+  background-image: url("/assets/bunting_flag.png");
+  background-repeat: repeat;
+  z-index: -10;
+}
+
+#background-color {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#overlay {
+  background-image: url("/assets/overlay.png");
+  background-repeat: repeat;
+  opacity: 0.5;
+}
