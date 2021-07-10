@@ -16,7 +16,7 @@ textarea {
 }
 
 #background {
-  background-image: url("/assets/bunting_flag.png");
+  background-image: url("../assets/bunting_flag.png");
   background-repeat: repeat;
   z-index: -10;
 }
@@ -26,7 +26,7 @@ textarea {
 }
 
 #overlay {
-  background-image: url("/assets/overlay.png");
+  background-image: url("../assets/overlay.png");
   background-repeat: repeat;
   opacity: 0.5;
 }
